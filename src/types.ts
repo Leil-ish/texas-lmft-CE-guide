@@ -118,6 +118,16 @@ export type CeRulesContent = {
   sources: SourceLink[];
   requirements: RequirementContent;
   checkerCopy: CheckerCopy;
+  ceBroker: {
+    heading: string;
+    summary: string;
+    associateNote: string;
+    accessSteps: string[];
+    reportingSteps: string[];
+    neededInfo: string[];
+    reminders: string[];
+    links: SourceLink[];
+  };
   contactEscalation: {
     heading: string;
     body: string;

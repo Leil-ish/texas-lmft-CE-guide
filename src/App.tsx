@@ -99,11 +99,11 @@ function App() {
       <main className="main-content">
         <section className="hero-card">
           <p className="eyebrow">Interactive Guide</p>
-          <h2>Answer a few questions and follow the branch</h2>
+          <h2>Texas LMFT Continuing Education Guide</h2>
           <p>
-            This version is built as a decision flow, not a reference article.
-            Pick a tool, tap through the branch, and land on a concise result
-            with the official links beside it.
+            Find your likely CE requirements, check whether an activity may fit
+            a CE category, and see how to report hours in CE Broker using
+            public BHEC guidance.
           </p>
           <div className="tool-toggle" role="tablist" aria-label="Choose tool">
             <button
@@ -516,6 +516,72 @@ function App() {
             </div>
           </section>
         )}
+
+        <section className="ce-broker-section">
+          <div className="section-heading">
+            <p className="eyebrow">Reporting Help</p>
+            <h2>{content.ceBroker.heading}</h2>
+            <p>{content.ceBroker.summary}</p>
+          </div>
+
+          <div className="ce-broker-grid">
+            <article className="info-panel">
+              <h3>How to access it</h3>
+              <ol>
+                {content.ceBroker.accessSteps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </article>
+
+            <article className="info-panel">
+              <h3>What you will likely need</h3>
+              <ul>
+                {content.ceBroker.neededInfo.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
+
+            <article className="info-panel">
+              <h3>How reporting works</h3>
+              <ol>
+                {content.ceBroker.reportingSteps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </article>
+          </div>
+
+          <div className="ce-broker-footer">
+            <div className="notice soft-notice">
+              <p>{content.ceBroker.associateNote}</p>
+            </div>
+
+            <div className="info-panel">
+              <h3>Important reminders</h3>
+              <ul>
+                {content.ceBroker.reminders.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="info-panel">
+              <h3>Official CE Broker links</h3>
+              <ul className="source-list">
+                {content.ceBroker.links.map((link) => (
+                  <li key={link.url}>
+                    <a href={link.url} target="_blank" rel="noreferrer">
+                      {link.label}
+                    </a>
+                    <span>Verified {link.lastVerified}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );

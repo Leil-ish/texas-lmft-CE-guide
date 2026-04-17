@@ -86,6 +86,58 @@
       "explanation": "This activity presents too much uncertainty for the tool to classify conservatively."
     }
   },
+  "ceBroker": {
+    "heading": "Using CE Broker",
+    "summary": "BHEC states that starting January 1, 2026, licensees must have a CE Broker account and report required continuing education before they can renew a license. CE Broker is the official CE tracking system used by BHEC.",
+    "associateNote": "Because the LMFT Associate license is non-renewable, this page should not imply that every Associate must complete the same renewal-reporting steps. For Associate-specific timing or account questions, rely on current BHEC guidance.",
+    "accessSteps": [
+      "Go to CE Broker and choose the free Basic Account unless you want optional paid tools.",
+      "Create or sign in to your CE Broker account using your email, password, or available one-time passcode flow.",
+      "Enter your Texas license number to activate or connect the account to your license."
+    ],
+    "reportingSteps": [
+      "Open your CE Broker account and choose Report CE.",
+      "Confirm you are reporting under the correct license if you hold more than one.",
+      "Select the reporting option that best matches the activity and answer the prompts shown.",
+      "Attach your certificate if required, then submit the entry."
+    ],
+    "neededInfo": [
+      "Your Texas license number",
+      "Course or activity title",
+      "Completion date",
+      "Number of hours earned",
+      "Provider or organization name",
+      "Course type or reporting category shown in CE Broker",
+      "Certificate, transcript, or other proof of completion in digital form if attachment is required"
+    ],
+    "reminders": [
+      "Some providers report directly to CE Broker, but BHEC and CE Broker indicate that this can take time, so do not wait until the deadline if a renewal is coming up.",
+      "If you hold multiple licenses, CE Broker says credits may need to be reported to each license individually.",
+      "This tool should not tell users which CE Broker reporting option is definitively correct when the category is unclear."
+    ],
+    "links": [
+      {
+        "label": "BHEC How to Report Your Continuing Education",
+        "url": "https://bhec.texas.gov/continuingeducation/",
+        "lastVerified": "April 17, 2026"
+      },
+      {
+        "label": "BHEC CE Broker requirement notice",
+        "url": "https://bhec.texas.gov/board_news/ce-broker-required-for-all-licensees-starting-january-1-2026-3/",
+        "lastVerified": "April 17, 2026"
+      },
+      {
+        "label": "CE Broker help: report continuing education",
+        "url": "https://help.cebroker.com/hc/en-us/articles/15226550796948-Report-Continuing-Education",
+        "lastVerified": "April 17, 2026"
+      },
+      {
+        "label": "CE Broker help: login assistance",
+        "url": "https://help.cebroker.com/hc/en-us/articles/15226551916692-Login-Assistance",
+        "lastVerified": "April 17, 2026"
+      }
+    ]
+  },
   "contactEscalation": {
     "heading": "Use official materials for edge cases",
     "body": "When a course topic, provider type, or reporting category is unclear, the safest path is to compare the course details against the official BHEC rule, renewal guidance, and CE reporting instructions.",

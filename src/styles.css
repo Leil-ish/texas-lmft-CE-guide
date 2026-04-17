@@ -64,6 +64,10 @@ button {
   gap: 1.5rem;
 }
 
+.section-heading h2 {
+  margin: 0 0 0.4rem;
+}
+
 .hero-card,
 .flow-panel,
 .result-card {
@@ -123,6 +127,44 @@ button {
   grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
   gap: 1.5rem;
   align-items: start;
+}
+
+.ce-broker-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.ce-broker-grid,
+.ce-broker-footer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-panel {
+  padding: 1.15rem;
+  border-radius: 24px;
+  border: 1px solid rgba(21, 32, 43, 0.09);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 14px 30px rgba(27, 39, 51, 0.05);
+}
+
+.info-panel h3 {
+  margin-top: 0;
+}
+
+.info-panel ul,
+.info-panel ol {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.info-panel li + li {
+  margin-top: 0.55rem;
+}
+
+.soft-notice {
+  margin-top: 0;
 }
 
 .flow-panel {
@@ -377,7 +419,9 @@ button {
 
 @media (max-width: 1180px) {
   .flow-layout,
-  .app-shell {
+  .app-shell,
+  .ce-broker-grid,
+  .ce-broker-footer {
     grid-template-columns: 1fr;
   }
 
