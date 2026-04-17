@@ -73,9 +73,11 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="rules-panel">
-        <p className="eyebrow">Official Rules Control</p>
-        <h1>{content.metadata.title}</h1>
-        <p className="lede">{content.metadata.subtitle}</p>
+        <p className="eyebrow">Official Sources</p>
+        <h1>Rules, Reporting, and Verification</h1>
+        <p className="lede">
+          Use these links and notes to verify edge cases with BHEC and CE Broker.
+        </p>
         <p className="verified-date">
           Last verified <strong>{content.metadata.lastVerified}</strong>
         </p>
