@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Texas LMFT CE Guide",
+    "subtitle": "General educational guidance based on publicly available BHEC rules and renewal materials.",
+    "lastVerified": "April 17, 2026"
+  },
+  "disclaimers": {
+    "global": "This page provides general educational guidance only. It is not legal advice, not an official CE determination, and should not be the sole basis for renewal or CE reporting decisions. Official rules and BHEC or CE Broker decisions control.",
+    "results": "This tool provides general guidance only and should not be the sole basis for renewal or CE reporting decisions.",
+    "checker": "TAMFT cannot guarantee that a specific course, provider, or activity will be accepted for your renewal record."
+  },
+  "sources": [
+    {
+      "label": "BHEC Renewing an MFT License",
+      "url": "https://bhec.texas.gov/texas-state-board-of-examiners-of-marriage-and-family-therapists/renewing-an-mft-license/",
+      "lastVerified": "April 17, 2026"
+    },
+    {
+      "label": "BHEC Continuing Education FAQ",
+      "url": "https://bhec.texas.gov/tbhec/continuing-education-ce-faqs/",
+      "lastVerified": "April 17, 2026"
+    },
+    {
+      "label": "Texas Register adopted 22 TAC 801.261",
+      "url": "https://www.sos.texas.gov/texreg/archive/July112025/Adopted%20Rules/22.EXAMINING%20BOARDS.html",
+      "lastVerified": "April 17, 2026"
+    },
+    {
+      "label": "BHEC How to Report Your Continuing Education",
+      "url": "https://bhec.texas.gov/sample-page/continuingeducation/",
+      "lastVerified": "April 17, 2026"
+    }
+  ],
+  "requirements": {
+    "associate": {
+      "headline": "LMFT Associate: no renewal CE requirement applies",
+      "summary": "Marriage and family therapy associate licenses expire 60 months from the date of issuance and cannot be renewed, so renewal continuing education does not apply to Associate license holders.",
+      "checklist": [
+        "No renewal CE requirement applies to the Associate license.",
+        "The Associate license expires 60 months from the date of issuance.",
+        "If supervised experience is not completed during that period, the person must reapply for a new Associate license.",
+        "Supervised experience accrued during the first 60-month Associate license may carry over to a subsequent 60-month Associate license."
+      ],
+      "notes": [
+        "This path should explain the non-renewable license structure rather than present CE totals.",
+        "The tool should still direct users to official sources for edge cases or changed rules."
+      ],
+      "edgeCasePrompt": "If your situation involves timing questions, prior hours, or licensing status changes, use the official BHEC materials before relying on this summary."
+    },
+    "lmft": {
+      "headline": "LMFT renewal: 30 total hours, with category-specific conditions",
+      "summary": "Licensed Marriage and Family Therapists are required to obtain at least 30 clock hours of continuing education during each renewal period they hold a license.",
+      "baseChecklist": [
+        "Obtain at least 30 total clock hours during the renewal period.",
+        "Include 6 hours in ethics within the 30-hour total.",
+        "Include 3 hours designed to ensure competency when providing services to a distinct population within the 30-hour total.",
+        "As of January 1, 2024, at least half of the 30 hours must come from a provider listed in 22 TAC 801.261(f)."
+      ],
+      "supervisorChecklist": [
+        "To maintain supervisory status, complete 6 hours in supervision during the renewal period.",
+        "Pass the jurisprudence examination during the renewal period.",
+        "One hour of ethics CE may be claimed for passing the jurisprudence exam, and that hour may count toward the total required hours."
+      ],
+      "telehealthChecklist": [
+        "If you provide telehealth services, complete 2 hours in technology-assisted services.",
+        "Those 2 hours may be counted toward the total number of hours required."
+      ],
+      "notes": [
+        "The page should avoid saying that a user is compliant or definitely approved.",
+        "Where a CE category is fact-specific, the page should route users back to the official rule text and BHEC guidance."
+      ],
+      "edgeCasePrompt": "If a course could fit more than one category, or the provider status is uncertain, verify the activity against the official BHEC rule and CE FAQ before reporting it."
+    }
+  },
+  "checkerCopy": {
+    "likely": {
+      "headline": "Likely counts based on current public rules",
+      "explanation": "The activity appears to line up with the category you selected, but the result is still general guidance rather than an official acceptance decision."
+    },
+    "verify": {
+      "headline": "Possibly counts, but TAMFT cannot confirm acceptance",
+      "explanation": "Some parts of this activity may fit the public rules, but the details are not specific enough for a reliable public-facing yes or no."
+    },
+    "unclear": {
+      "headline": "Unclear or higher-risk; verify with official sources before relying on it",
+      "explanation": "This activity presents too much uncertainty for the tool to classify conservatively."
+    }
+  },
+  "contactEscalation": {
+    "heading": "Use official materials for edge cases",
+    "body": "When a course topic, provider type, or reporting category is unclear, the safest path is to compare the course details against the official BHEC rule, renewal guidance, and CE reporting instructions.",
+    "officialLinksLabel": "These official links should appear with every result state."
+  }
+}
